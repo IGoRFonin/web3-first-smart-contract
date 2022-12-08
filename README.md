@@ -1,13 +1,20 @@
-## Running React on Repl.it
+# Simple smart contract + web app
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+This project demonstrates a web page with simple smart contract.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+Try running some of the following tasks:
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
+```
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+## App
+```shell
+$ cd front
+$ npm install
+$ npm run dev
+```
